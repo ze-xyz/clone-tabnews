@@ -15,4 +15,14 @@
     - para definir uma versão padrão usar comando `nvm alias default <versão>`
     - criar arquivo `.nvmrc` que vai garantir que todos que contribuirem saibam a versão que recomendo. 
         - `rc` (run commands) é uma conversão para scripts de inicialização, como seu arquivo de configuração do zsh o .zshrc
-        
+
+- vamos usar o `next.js` como framework pra web dev
+- para isso devemos criar um arquivo de manifesto que irá listar todas as dependências do projeto. o `package.json`
+- agora sim, podemos instalar as dependências
+    - `npm install nome@versão`
+        - next@13.1.6
+        - react@18.2.0
+        - react-dom@18.2.0
+    - note que em muitos casos essa versão x de y pode estar desatualizada, vamos instalar de proposito essas.
+
+## dia 4
