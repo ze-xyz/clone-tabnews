@@ -46,3 +46,15 @@
         - queremos que a função `Home` seja a padrão e para isso adicionamos `default` apos `export`
         - ao executar `npm run dev` a página está rodando de forma local.
 
+## dia 5
+- versionamento de codigo
+    - centralizado = existe uma única cópia do repositório em um servidor central. Quando alguém precisa trablhar em qualquer arquivo desse repositório, eles reservam, fazem o `checkout`, travando o arquivo. O restante da organização ainda pode le-lo, mas so podem modifica-lo após a pessoa que o reservou fazer o `checkin`.
+        - isso tudo era feito para evitar o `merge`. Se apenas uma pessoa está editando o arquivo e pro resto está bloqueado, não tem como informações diferentes de um mesmo arquivo conflitarem.
+    - distribuido = com a evolução dos algoritmos de `merge` todos os envolvidos no projeto agora podem ter acesso a um cópia de todo o repositório. Desse modo, todos podem modifica-lo sem nenhuma trava. // **estudar sobre algoritmos de merge e git**
+
+- git log
+- estágios de um arquivo git
+    - untracked 
+    - modified
+    - staged
+    - commit
