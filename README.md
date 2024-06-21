@@ -52,9 +52,13 @@
         - isso tudo era feito para evitar o `merge`. Se apenas uma pessoa está editando o arquivo e pro resto está bloqueado, não tem como informações diferentes de um mesmo arquivo conflitarem.
     - distribuido = com a evolução dos algoritmos de `merge` todos os envolvidos no projeto agora podem ter acesso a um cópia de todo o repositório. Desse modo, todos podem modifica-lo sem nenhuma trava. // **estudar sobre algoritmos de merge e git**
 
-- git log
+- git `log`
 - estágios de um arquivo git
-    - untracked 
-    - modified
-    - staged
-    - commit
+    - `untracked` 
+    - `modified`
+    - `staged`
+    - `commit`
+- usando `amend` pra adicionar novos arquivos a um commit anterior ou melhor "voltar no tempo".
+
+## dia 6
+- git push
